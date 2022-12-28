@@ -1,3 +1,4 @@
+@media only screen and (min-device-width: 601px) {
 
 	body
 	{
@@ -21,19 +22,55 @@
 	color: #000;
 	}
 	
-	.code
-	{
-	color: #339;
-	background-color: transparent;
-	font-family: times, serif;
-	font-size: 0.9em;
-	padding-left: 40px;
-	}
 
     ul li {
     margin-top: 4px;
     }
   
+	img {
+		overflow-clip-margin: content-box;
+		overflow: clip;
+	}
+	
+}
+
+@media only screen and (max-device-width: 600px) {
+	
+	body
+	{
+	padding: 0;
+	margin: 0;
+	background-color: #666;
+	color: #000;
+	}
+
+	#contents
+	{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+	background-color: #FFF;
+	color: #000;
+	}
+
+	ul li {
+	margin-top: 4px;
+	}
+	  
+	img {
+		overflow-clip-margin: content-box;
+		overflow: clip;
+	}
+
+}
+
+
+
   
   /*
 
